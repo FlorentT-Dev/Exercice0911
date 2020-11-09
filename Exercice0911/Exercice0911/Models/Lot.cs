@@ -47,6 +47,13 @@ namespace Exercice0911.Models
         #endregion
 
         #region Méthodes
+         /// <summary>
+         /// Permet 
+         ///</summary>
+         ///<returns>
+         ///</returns>
+         ///<para>
+         ///</para>
         public void AjouterTaches(int nbTacheAjout)
         {
             int compteur = 0;
