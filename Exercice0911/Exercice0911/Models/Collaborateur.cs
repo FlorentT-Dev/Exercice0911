@@ -9,10 +9,10 @@ namespace Exercice0911.Models
     class Collaborateur
     {
         #region Attributs
-        public static List<Collaborateur> collClassCollaborateur = new List<Collaborateur>();
-        private int _idCollaborateur;
-        private string _nomCollaborateur;
-        private Service _leService;
+        public static List<Collaborateur> collClassCollaborateur = new List<Collaborateur>(); // collection de collaborateur
+        private int _idCollaborateur; // numéro du collaborateur
+        private string _nomCollaborateur; // nom du collaborateur
+        private Service _leService; // objet de Service
         #endregion
 
         #region Constructeur

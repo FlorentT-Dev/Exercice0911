@@ -9,10 +9,10 @@ namespace Exercice0911.Models
     class Service
     {
         #region Attributs
-        public static List<Service> collClassService = new List<Service>();
-        private int _idService;
-        private string _nomService;
-        private Collaborateur _leResponsable;
+        public static List<Service> collClassService = new List<Service>(); // Collection de Service
+        private int _idService; // numéro du Service
+        private string _nomService; // nom du Service
+        private Collaborateur _leResponsable; // objet de Collaborateur
         #endregion
 
         #region Constructeur
