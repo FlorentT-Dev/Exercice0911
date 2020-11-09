@@ -8,8 +8,6 @@ namespace Exercice0911.Models
 {
     class Projet
     {
-        class Projet
-    {
         #region Attributs
         private int idProjet;
         private string intituleProjet;
@@ -74,5 +72,4 @@ namespace Exercice0911.Models
         }
         #endregion
 
-    }
 }
