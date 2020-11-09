@@ -56,14 +56,14 @@ namespace Exercice0911.Models
         #endregion
 
         #region Methodes
-        /// <summary>
+        /// <summary> Galaad
         /// Permet d'avoir un pourcentage pour les tâches terminées et le nombre de tâches total du projet
         ///</summary>
         //////<returns>
         ///Retourne un pourcentage des taches déjà fini
         //////</returns>
         //////<param>
-        ///Le nombre de tâches terminées et le nombre de tâches total du projet 
+        ///Aucun
         //////</param>
         public float pourcentageAvancement()
         {
