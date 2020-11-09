@@ -14,7 +14,7 @@ namespace Exercice0911.Models.Tests
         [TestMethod()]
         public void AjouterTachesTest()
         {
-            Assert.Fail();
+            Taches T1 = new Taches();
         }
 
         [TestMethod()]
