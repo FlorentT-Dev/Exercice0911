@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Exercice0911.Models
 {
-    class Collaborateur
+    public class Collaborateur
     {
         #region Attributs
         public static List<Collaborateur> collClassCollaborateur = new List<Collaborateur>(); // collection de collaborateur

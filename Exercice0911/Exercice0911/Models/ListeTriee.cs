@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Exercice0911.Models
 {
-    class ListeTriee
+    public class ListeTriee
     {
     }
 }
