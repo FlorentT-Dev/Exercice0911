@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Exercice0911.Models
 {
-    class Service
+    public class Service
     {
         #region Attributs
         public static List<Service> collClassService = new List<Service>(); // Collection de Service

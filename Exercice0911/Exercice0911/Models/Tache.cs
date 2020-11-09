@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Exercice0911.Models
 {
-    class Tache
+    public class Tache
     {
-#region Attributs
+        #region Attributs
         public static List<Tache> CollClasseTache = new List<Tache>();
         private int idTache;
         private string intituleTache;
@@ -43,7 +43,7 @@ namespace Exercice0911.Models
         public DateTime DateFinPrevue { get => dateFinPrevue; set => dateFinPrevue = value; }
         public DateTime DateFinReelle { get => dateFinReelle; set => dateFinReelle = value; }
         public string Etat { get => etat; set => etat = value; }
-        internal List<Collaborateur> LesCollaborateur { get => lesCollaborateur; set => lesCollaborateur = value; }
+        public List<Collaborateur> LesCollaborateur { get => lesCollaborateur; set => lesCollaborateur = value; }
         #endregion
 
         #region Méthodes

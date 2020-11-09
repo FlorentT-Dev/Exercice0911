@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Exercice0911.Models
 {
-    class Lot
+    public class Lot
     {
         #region Attributs
         public static List<Lot> CollClasseLot = new List<Lot>();
@@ -42,8 +42,8 @@ namespace Exercice0911.Models
         public DateTime DateFinPrevue { get => dateFinPrevue; set => dateFinPrevue = value; }
         public DateTime DateFinReelle { get => dateFinReelle; set => dateFinReelle = value; }
         public string Etat { get => etat; set => etat = value; }
-        internal Projet LeProjet { get => leProjet; set => leProjet = value; }
-        internal List<Tache> LesTaches { get => lesTaches; set => lesTaches = value; }
+        public Projet LeProjet { get => leProjet; set => leProjet = value; }
+        public List<Tache> LesTaches { get => lesTaches; set => lesTaches = value; }
         #endregion
 
         #region Méthodes
@@ -71,7 +71,7 @@ namespace Exercice0911.Models
         }
         public int PourcentageAvancement()
         {
-            return DonneNbTachesTerminees() / LesTaches.Count();
+            return (DonneNbTachesTerminees() / LesTaches.Count()) * 100 ;
         }
         public List<Tache> DonneTacheAAffecter()
         {

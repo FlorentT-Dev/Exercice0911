@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Exercice0911.Models
 {
-    class Projet
+    public class Projet
     {
         #region Attributs
         private int idProjet;
@@ -67,17 +67,15 @@ namespace Exercice0911.Models
         //////</param>
         public float pourcentageAvancement()
         {
-            int X = 0;
-            int Y = 0;
+            int totalTacheTermine = 0;           
             foreach (Tache uneTache in LesTachesRestantARealiser)
             {
                 if (uneTache.Etat == "terminee")
                 {
-                    X++;
-                }
-                Y++;
+                    totalTacheTermine++;
+                }                
             }
-            return X / Y * 100;
+            return totalTacheTermine / LesTachesRestantARealiser.Count() * 100;
         }
         #endregion
 
