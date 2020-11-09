@@ -56,8 +56,16 @@ namespace Exercice0911.Models
         #endregion
 
         #region Methodes
-       
-        public float pourcentageAvancement() //Je retourne un pourcentage des tache deja fini du projet
+        /// <summary>
+        /// Permet d'avoir un pourcentage pour les tâches terminées et le nombre de tâches total du projet
+        ///</summary>
+        //////<returns>
+        ///Retourne un pourcentage des taches déjà fini
+        //////</returns>
+        //////<param>
+        ///Le nombre de tâches terminées et le nombre de tâches total du projet 
+        //////</param>
+        public float pourcentageAvancement()
         {
             int totalTacheTermine = 0;           
             foreach (Tache uneTache in LesTachesRestantARealiser)
