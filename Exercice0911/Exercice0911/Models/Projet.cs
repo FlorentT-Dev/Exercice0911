@@ -56,6 +56,7 @@ namespace Exercice0911.Models
         #endregion
 
         #region Methodes
+       
         public float pourcentageAvancement() //Je retourne un pourcentage des tache deja fini du projet
         {
             int X = 0;
